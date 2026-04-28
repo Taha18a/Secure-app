@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* ✅ Container (wider for report) */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2, h3 {
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Specific buttons */
+#addBtn {
+    background: #3b82f6;
+    color: white;
+    width: 100%;
+}
+
+#logoutBtn {
+    background: #ef4444;
+    color: white;
+    width: 120px;
+    float: right;
+}
+
+/* Message */
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ✅ TABLE (REPORT STYLE) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Header */
+th {
+    background-color: #15fa15;
+    font-weight: bold;
+}
+
+/* Row styling */
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tr:hover {
+    background-color: #eef2ff;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #7244ef;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}

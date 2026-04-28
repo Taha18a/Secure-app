@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <h2>User Report</h2>
+
+    <button id="logoutBtn">Logout</button>
+
+    <!-- Add User Section -->
+    <h3>Create a User</h3>
+
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="studentId" placeholder="Student ID">
+    <input type="text" id="department" placeholder="Department">
+
+    <button id="addBtn">Add User</button>
+
+    <p id="message"></p>
+
+    <!-- User Report Table -->
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Student ID</th>
+                <th>Department</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <!--  THIS is where JS will insert rows -->
+        <tbody id="userList"></tbody>
+    </table>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
